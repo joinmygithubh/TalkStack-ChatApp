@@ -26,3 +26,7 @@ io.on('connection', (socket) => {
 server.listen(4000, () => {
   console.log('Server listening on port 4000');
 });
+
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
+});
