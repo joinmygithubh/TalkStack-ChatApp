@@ -6,7 +6,7 @@ function App() {
     <ChakraProvider>
       <Box p={5}>
         <Heading as="h1" mb={6}>
-          Real-Time Chat
+          TalkStack
         </Heading>
         <ChatBox />
       </Box>

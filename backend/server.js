@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'https://stirring-kitsune-5309db.netlify.app',
+    origin: ['http://localhost:5173', 'https://quiet-creponne-50192e.netlify.app'],
     methods: ['GET', 'POST']
   }
 });
